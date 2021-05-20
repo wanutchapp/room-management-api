@@ -1,6 +1,6 @@
 const jwt = require("jsonwebtoken");
 const accessTokenSecret = ")J@NcRfUjXn2r5u7x!A%D*G-KaPdSgVk";
-const { pool, formatDate } = require("../../config");
+const { pool } = require("../../config");
 
 function generateToken(data) {
   return jwt.sign(
